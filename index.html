@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>José Domingues</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="profile">
+                <img src="me.png" alt="Your Name" class="profile-img" />
+                <div class="profile-info">
+                    <h1>José David Domingues</h1>
+                    <p>PhD Student in Informatics</p>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/jddomingues/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/joseddomingues" target="_blank">GitHub</a>
+                        <a href="https://scholar.google.com/citations?user=5ADlPSAAAAAJ" target="_blank">Google
+                            Scholar</a>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#journey">Career & Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am an informatics PhD student at University of Lisbon specializing in AI for medical imaging.
+                My research interests include Medical Imaging Analysis, Small Vision-Language Models, and Explainable
+                AI. I am passionate about using AI to solve real-world problems and contribute to the field of
+                healthcare.
+            </p>
+        </section>
+
+        <section id="journey">
+            <h2>Career & Research</h2>
+            <ul class="timeline">
+                <li>
+                    <h3>PhD Student (Sep. 2023 &ndash; Present)</h3>
+                    <p> My PhD focuses on breast cancer diagnosis using multimodal exam imaging, self-supervised
+                        learning, and small vision-language models. </p>
+                    <p>We want to be able to incorporate all common breast exam modalities (DM, MRI and US) into a
+                        single model. For this we are exploring self-supervised approaches to deal with the costly
+                        annotation of multimodal data and small vision-language models to deal with the reduced
+                        computational resources available in healthcare institutions, and to make the model more
+                        interpretable and efficient.</p>
+                    <p><br></p>
+                    <p>
+                        During this period I have attended: <a href="https://www.bmvc2023.org/" target="_blank">BMVC
+                            2023</a>, and <a href="https://cmp.felk.cvut.cz/summerschool2024/" target="_blank">VS3
+                            2024</a>.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Junior Data Scientist &ndash; OLX Group (Jan. 2023 &ndash; Aug. 2023)</h3>
+                    <p>Continued the work on the user segmentation job, where we enabled custom integrations metrics,
+                        improved data distribution across cluster nodes, and optimized feature extraction operations
+                        logic. These improvements resulted in cost reductions and a continuous processing of a
+                        clickstream of 350 requests per second, with a daily cost of $18.</p>
+                    <p><br></p>
+                    <p>I also worked on implementing the outbox pattern with Debezium to facilitate the transition of
+                        teams to using the streaming platform. This was crucial step to make the ad posting process
+                        consistent across all OLX domains.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Data Engineer Intern &ndash; OLX Group (Jul. 2022 &ndash; Jan. 2023)</h3>
+                    <p>I was a data engineer intern at OLX Group, where I worked on the streaming team. This included
+                        working with Kafka, Flink, and New Relic. </p>
+                    <p><br></p>
+
+                    <p>
+                        My responsibilities included enhancing the monitoring of the streaming platform and developing a
+                        user segmentation job using AWS KDA.
+                        One of OLX's revenue streams is sponsored ads. This project enabled us to consume user
+                        clickstream data, aggregate it, and create user segments based on their behavior. By doing so,
+                        we could target sponsored ads more effectively and make real-time adjustments (instead of the
+                        current daily batch) to increase revenue.
+                    </p>
+                </li>
+                <li>
+                    <h3>Master's Degree in Informatics &ndash; University of Lisbon (Sep. 2020 &ndash; Mar. 2023)</h3>
+                    <p>
+                        My masters focused on heavily on data science, shifting from a software prespective. It was
+                        during my thesis that I first got into deep learning and computer vision for medical imaging. My
+                        thesis was title <em>"Adversarial Representation Learning for Medical Imaging"</em>.
+                    </p>
+
+                    <p><br></p>
+
+                    <p><strong>Adversarial Representation Learning for Medical Imaging</strong></p>
+                    <p>
+                        The access to vast high-quality breast cancer datasets for training deep learning models is a
+                        major bottleneck in the development of artificial intelligence systems for medical imaging. For
+                        that reason, my dissertation proposed an approach to generate synthetic mammograms based on
+                        ConSinGAN. The main goal was to create a large and diverse dataset of mammograms where samples
+                        are generated from a single mammogram image. This allows to exploit extremely small datasets and
+                        scale them to a larger size without recurring to traditional data augmentation techniques and
+                        therefore have more variability.
+                        Making use of the same model, we also propose a simple mechanism to extract a tumour from a
+                        malign mammogram and insert it into a healthy mammogram, for additional data augmentation.
+
+                        We used the Digital Database for Screening Mammography (DDSM) dataset, and validated through a
+                        simple classifier that this additional data increase model performance. Check the code <a
+                            href="https://github.com/joseddomingues/Adversarial-Representation-Learning-for-Medical-Imaging"
+                            target="_blank">here</a>.
+                    </p>
+                </li>
+                <li>
+                    <h3>Bachelor's Degree in Informatics &ndash; University of Lisbon (Sep. 2017 &ndash; Jun. 2020)</h3>
+                    <p>
+                        Bachelor's degree in Informatics at University of Lisbon, where I learned the basics of computer
+                        science and software development. I also took an introductory course in machine learning.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>
+                    <em>AI in Breast Cancer Imaging: A Survey of Different Applications</em>, <strong>Journal of
+                        Imaging, MDPI</strong>, 2022<br>
+                    <span>João Mendes, José Domingues, Helena Aidos, Nuno Garcia, and Nuno Matela</span><br>
+                    <a href="https://www.mdpi.com/2313-433X/8/9/228" target="_blank">View Publication</a>
+
+                </li>
+            </ul>
+        </section>
+
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <ul>
+                <li>Programming Introduction (Java), 1º year 1º semester (Sep. 2023 &ndash; Jan. 2024), University of
+                    Lisbon </li>
+                <li>Operating Systems (C), 2º year 2º semester (Feb. 2023 &ndash; Jul. 2024), University of Lisbon </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                If you'd like to get in touch, please email me at
+                <a href="mailto:jddomingues@fc.ul.pt">jddomingues@fc.ul.pt</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy;
+                <script>document.write(new Date().getFullYear());</script> José David Domingues. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
