@@ -199,6 +199,13 @@ ul li {
     margin-bottom: 10px;
 }
 
+.carrer-icon {
+    width: 1.5em; /* Adjust the size as needed */
+    height: auto;
+    vertical-align: middle; /* Aligns the icon with the middle of the text */
+    margin-right: 0.5em; /* Adds some space between the icon and the text */
+}
+
 /* Footer Styling */
 footer {
     background-color: #35424a;
